@@ -93,11 +93,11 @@ export default function Navbar({ isHeroPage }) {
 
   const onResumeClick = (e) => {
     e.preventDefault();
-    const href = '/Dinesh_Resume.pdf';
+    const href = '/Resume.pdf';
     try {
       const a = document.createElement('a');
       a.href = href;
-      a.download = 'Dinesh_Resume.pdf';
+      a.download = 'Resume.pdf';
       a.target = '_self';
       document.body.appendChild(a);
       a.click();
@@ -135,7 +135,7 @@ export default function Navbar({ isHeroPage }) {
           onClick={playClickSound}
           style={{ textDecoration: 'none', color: '#fff', fontSize: '1.5rem', fontWeight: 900, letterSpacing: '0.1em' }}
         >
-          <ConvexText text="DINESH" />
+          <ConvexText text="TORVENSNOW" />
         </Link>
       </div>
 
@@ -151,7 +151,7 @@ export default function Navbar({ isHeroPage }) {
         }}
       >
         <a
-          href="/Dinesh_Resume.pdf"
+          href="/Resume.pdf"
           onClick={(e) => { onResumeClick(e); playClickSound(); }}
           onMouseEnter={playHoverSound}
           className="nav-link hoverable font-mono uppercase text-glow"
@@ -185,7 +185,7 @@ export default function Navbar({ isHeroPage }) {
             className="mobile-brand-link font-mono uppercase text-glow"
             onClick={() => { playClickSound(); setMobileMenuOpen(false); }}
           >
-            Dinesh
+            Torvensnow
           </Link>
 
           {/* Desktop Navigation Links */}
@@ -217,16 +217,16 @@ export default function Navbar({ isHeroPage }) {
             {/* Desktop Resume link */}
             {!isHeroPage && (
               <a
-                href="/Dinesh_Resume.pdf"
+                href="/Resume.pdf"
                 onClick={(e) => { onResumeClick(e); playClickSound(); }}
                 onMouseEnter={playHoverSound}
                 className="nav-link hoverable font-mono uppercase text-glow desktop-resume-link"
                 aria-label="Download Resume"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path d="M12 3v10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                  <path d="M8 11l4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M4 20h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  <path d="M12 3v10" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+                  <path d="M8 11l4 4 4-4" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M4 20h16" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
                 </svg>
                 <ConvexText text="Resume" />
               </a>
@@ -292,7 +292,7 @@ export default function Navbar({ isHeroPage }) {
 
         <div className="mobile-drawer-footer font-mono">
           <a
-            href="/Dinesh_Resume.pdf"
+            href="/Resume.pdf"
             onClick={(e) => {
               onResumeClick(e);
               playClickSound();
