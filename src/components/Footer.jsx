@@ -19,11 +19,10 @@ export default function Footer() {
   return (
     <footer>
       <div className="container footer-inner font-mono text-gray">
-        <p>© 2026 BUILD WITH DINESH. All systems operational.</p>
+        <p>© 2026 BUILD WITH TORVENSNOW. All systems operational.</p>
         <div className="social-links uppercase">
-          <ScrambleLink href="https://github.com/DineshS36" className="hoverable" target="_blank" rel="noopener noreferrer">Github</ScrambleLink>
-          <ScrambleLink href="https://www.linkedin.com/in/dinesh-s-173698390" className="hoverable" target="_blank" rel="noopener noreferrer">LinkedIn</ScrambleLink>
-          <ScrambleLink href="https://wa.me/919345380487" className="hoverable" target="_blank" rel="noopener noreferrer">WhatsApp</ScrambleLink>
+          <ScrambleLink href="https://t.me/torvensnow7" className="hoverable" target="_blank" rel="noopener noreferrer">Telegram</ScrambleLink>
+          <ScrambleLink href="https://www.instagram.com/torvensnow/" className="hoverable" target="_blank" rel="noopener noreferrer">Instagram</ScrambleLink>
         </div>
       </div>
     </footer>

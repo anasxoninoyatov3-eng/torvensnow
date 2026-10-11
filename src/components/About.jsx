@@ -1,4 +1,4 @@
-import dineshPhoto from '../assets/MYphoto.jpeg';
+import profilePhoto from '../assets/MYphoto.jpeg';
 import EngineeringTelemetry from './EngineeringTelemetry';
 import Timeline from './Timeline';
 import MaskedTitle from './MaskedTitle';
@@ -13,7 +13,7 @@ export default function About() {
             <MaskedTitle number="1." text="About Me" />
             <div className="divider" />
             <p className="text-gray about-text">
-              I’m Dinesh, an AI-Native Full Stack Developer and 4th-year AIML student specializing in architecture-driven, AI-augmented engineering. Rather than spending weeks writing boilerplate code by hand, I operate at the architectural level: designing decoupled system flows, data schemas, API contracts, and responsive UI layouts with HTML, CSS, and Tailwind. By directing generative AI as an engineering co-pilot, I synthesize, debug, and deploy production-ready cloud applications to Cloudflare Pages and Vercel at rapid sprint velocities.
+              I'm Torvensnow, a passionate Full Stack Developer focused on building modern, scalable, and user-friendly web applications. I specialize in crafting responsive UI layouts, designing efficient backend architectures, and developing seamless API integrations using modern technologies. Rather than just writing code, I focus on solving real-world problems through clean architecture, creative thinking, and AI-assisted development. I continuously explore new tools and technologies to optimize workflows, improve performance, and deliver high-quality digital experiences. My goal is to transform ideas into reliable, production-ready applications with elegant design and powerful functionality.
             </p>
             <div className="font-mono text-gray skill-list text-sm">
               <p><span style={{ color: '#fff' }}></span> System Architecture & Data Flows</p>
@@ -26,8 +26,8 @@ export default function About() {
           <div className="abstract-box hoverable gsap-reveal">
             <div className="about-photo-wrapper">
               <img
-                src={dineshPhoto}
-                alt="Dinesh - Full Stack Developer & AI Engineer"
+                src={profilePhoto}
+                alt="Torvensnow - Full Stack Developer"
                 className="about-photo-img"
                 loading="eager"
               />

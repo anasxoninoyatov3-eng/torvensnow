@@ -1,5 +1,5 @@
 import { useAudio } from '../hooks/useAudio';
-import dineshPhoto from '../assets/MYphoto.jpeg';
+import profilePhoto from '../assets/MYphoto.jpeg';
 
 export default function EngineeringTelemetry() {
   const { playHoverSound, playClickSound } = useAudio();
@@ -33,52 +33,50 @@ export default function EngineeringTelemetry() {
           </div>
         </div>
 
-        {/* Card 2: GitHub Projects */}
+        {/* Card 2: Production Systems */}
         <div className="telemetry-card hoverable">
           <div className="telemetry-card-top">
-            <span className="card-badge">GITHUB CODE</span>
-            <span className="card-indicator">10+ Repositories</span>
+            <span className="card-badge">LIVE SYSTEMS</span>
+            <span className="card-indicator">7+ Deployed</span>
           </div>
           <h3 className="telemetry-card-title">System Architectures</h3>
           <p className="telemetry-card-text text-gray">
-            Over 10 public and private repositories—architected from concept to edge deployment, featuring ATS analyzers, WebSockets, and AI tools.
+            Over 7 live production platforms deployed to edge infrastructure—featuring e-commerce, AI education portals, booking engines, and real-time systems.
           </p>
           <div className="telemetry-actions-list">
             <a
-              href="https://github.com/DineshS36"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#work"
               className="telemetry-btn hoverable"
               onMouseEnter={playHoverSound}
               onClick={playClickSound}
             >
-              <span>View GitHub Repositories</span>
+              <span>Explore Featured Work</span>
               <span className="telemetry-arrow">↗</span>
             </a>
           </div>
         </div>
 
-        {/* Card 3: LinkedIn Profile & Quick Contact */}
+        {/* Card 3: Social & Professional Profile */}
         <div className="telemetry-card telemetry-card-comms hoverable">
           <div className="telemetry-card-top">
             <span className="card-badge">PROFESSIONAL PROFILE</span>
             <span className="card-indicator">Open to Roles</span>
           </div>
 
-          {/* Clean LinkedIn Identity Preview */}
+          {/* Clean Identity Preview */}
           <div className="linkedin-profile-preview">
             <img
-              src={dineshPhoto}
-              alt="Dinesh S"
+              src={profilePhoto}
+              alt="Torven S"
               className="linkedin-preview-avatar"
             />
             <div className="linkedin-preview-info">
               <div className="linkedin-preview-name">
-                <span>Dinesh S</span>
+                <span>Torven S</span>
                 <span className="linkedin-check" title="Verified Profile">✓</span>
               </div>
               <div className="linkedin-preview-role text-gray">
-                AI-Native Developer • 4th-Year AIML
+                Full Stack Developer • @torvensnow
               </div>
             </div>
           </div>
@@ -89,27 +87,27 @@ export default function EngineeringTelemetry() {
 
           <div className="telemetry-actions-list">
             <a
-              href="https://www.linkedin.com/in/dinesh-s-173698390"
+              href="https://t.me/torvensnow7"
               target="_blank"
               rel="noopener noreferrer"
-              className="telemetry-btn hoverable"
+              className="telemetry-btn telemetry-btn-tg hoverable"
               onMouseEnter={playHoverSound}
               onClick={playClickSound}
             >
-              <span>Connect on LinkedIn</span>
+              <span>Chat on Telegram</span>
               <span className="telemetry-arrow">↗</span>
             </a>
 
             <a
-              href="https://wa.me/919345380487?text=Hi%20Dinesh,%20saw%20your%20portfolio%20and%20wanted%20to%20connect!"
+              href="https://www.instagram.com/torvensnow/"
               target="_blank"
               rel="noopener noreferrer"
-              className="telemetry-btn telemetry-btn-ping hoverable"
+              className="telemetry-btn telemetry-btn-insta hoverable"
               onMouseEnter={playHoverSound}
               onClick={playClickSound}
             >
-              <span>Chat on WhatsApp</span>
-              <span className="telemetry-arrow">💬</span>
+              <span>Connect on Instagram</span>
+              <span className="telemetry-arrow">↗</span>
             </a>
           </div>
         </div>

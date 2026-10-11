@@ -335,6 +335,30 @@
   box-shadow: 0 4px 15px rgba(34, 197, 94, 0.2);
 }
 
+.telemetry-btn-tg {
+  border-color: rgba(56, 189, 248, 0.35);
+  color: #38bdf8;
+}
+
+.telemetry-btn-tg:hover {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: #38bdf8;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.25);
+}
+
+.telemetry-btn-insta {
+  border-color: rgba(244, 114, 182, 0.35);
+  color: #f472b6;
+}
+
+.telemetry-btn-insta:hover {
+  background: rgba(244, 114, 182, 0.15);
+  border-color: #f472b6;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(244, 114, 182, 0.25);
+}
+
 .telemetry-arrow {
   font-size: 0.85rem;
   transition: transform 0.25s ease;
