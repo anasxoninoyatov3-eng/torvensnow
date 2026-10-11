@@ -105,7 +105,7 @@ export default {
               <div class="field-label">Message Payload</div>
               <div class="message-box">${safeMessage}</div>
               <div class="footer">
-                Dispatched from Dinesh Portfolio Beacon • ${new Date().toUTCString()}
+                Dispatched from Torvensnow Portfolio Beacon • ${new Date().toUTCString()}
               </div>
             </div>
           </body>
@@ -114,7 +114,7 @@ export default {
 
         const emailPayload = {
           from: 'Portfolio Contact <onboarding@resend.dev>',
-          to: ['itsdinesh036@gmail.com'],
+          to: ['anasxoninoyatov3@gmail.com'],
           subject: `[Portfolio Inquiry] ${senderName.trim()}`,
           html: emailHtml,
           text: `Name: ${senderName}\nEmail: ${cleanEmail || 'Not provided'}\n\nMessage:\n${senderMessage}`,
@@ -186,13 +186,13 @@ export default {
 
       try {
         const ghHeaders = {
-          'User-Agent': 'Dinesh-Portfolio-Cloudflare-Worker/1.0',
+          'User-Agent': 'Torvensnow-Portfolio-Cloudflare-Worker/1.0',
           Accept: 'application/vnd.github.v3+json',
         };
 
         const [userRes, reposRes] = await Promise.all([
-          fetch('https://api.github.com/users/DineshS36', { headers: ghHeaders }),
-          fetch('https://api.github.com/users/DineshS36/repos?sort=pushed&per_page=1', {
+          fetch('https://api.github.com/users/anasxoninoyatov3-eng', { headers: ghHeaders }),
+          fetch('https://api.github.com/users/anasxoninoyatov3-eng/repos?sort=pushed&per_page=1', {
             headers: ghHeaders,
           }),
         ]);
